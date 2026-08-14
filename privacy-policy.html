@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Privacy Policy — MedSnapshot</title>
+<link rel="icon" href="/favicon.ico" sizes="any"/>
+<link rel="icon" href="/icon.svg" type="image/svg+xml"/>
+<link rel="apple-touch-icon" href="icon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#F4F1EA; --card:#FFFFFF; --card2:#EDE9DF; --ink:#0F1814; --ink2:#5C6862; --ink3:#9CA5A0; --line:rgba(15,24,20,0.08); --sage:#4F6E5C; --sage-dark:#2F4538; --sage-soft:#DDE6DC;}
+[data-theme="dark"]{--bg:#11140F; --card:#1B1F1A; --card2:#252A24; --ink:#EEEAE0; --ink2:rgba(238,234,224,0.68); --ink3:rgba(238,234,224,0.42); --line:rgba(238,234,224,0.08); --sage:#9CBDA8; --sage-dark:#9CBDA8; --sage-soft:rgba(156,189,168,0.14);}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg); color:var(--ink); font-family:'Plus Jakarta Sans',-apple-system,system-ui,sans-serif; -webkit-font-smoothing:antialiased;}
+a{color:var(--sage-dark)}
+[data-theme="dark"] a{color:var(--sage)}
+.wrap{max-width:640px; margin:0 auto; padding:28px 20px 80px;}
+.back{display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600; text-decoration:none; color:var(--ink2); margin-bottom:20px;}
+.kicker{font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; font-weight:600; color:var(--sage-dark); background:var(--sage-soft); border-radius:999px; padding:6px 12px; display:inline-block;}
+[data-theme="dark"] .kicker{color:var(--sage);}
+h1{font-size:28px; font-weight:800; letter-spacing:-0.02em; margin:14px 0 4px;}
+.updated{font-size:12px; color:var(--ink3); font-family:'JetBrains Mono',monospace; margin-bottom:28px;}
+h2{font-size:16px; font-weight:800; margin:28px 0 8px;}
+p,li{font-size:14px; line-height:1.6; color:var(--ink2); font-weight:500;}
+ul{padding-left:18px; margin:8px 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<a class="back" href="index.html">← Back to MedSnapshot</a>
+<span class="kicker">Legal</span>
+<h1>Privacy Policy</h1>
+<div class="updated">Last updated: August 2026</div>
+
+<p>MedSnapshot ("MedSnapshot", "we", "us") is currently in a pre-launch, early-access phase. This policy explains what we collect today, and what we will collect once the product launches.</p>
+
+<h2>What we collect today</h2>
+<p>The only data collected on this website is the email address you submit through the waitlist form. We use it solely to contact you about early access to MedSnapshot. We do not sell, rent, or share this address with third parties, and we do not use it for advertising.</p>
+
+<h2>What we will collect after launch</h2>
+<p>Once the product is live, MedSnapshot will process health-related data that users choose to upload, including:</p>
+<ul>
+<li>Lab reports, scans, and clinical documents (PDF, image, or text)</li>
+<li>Biomarkers and clinical values extracted from those documents</li>
+<li>Basic account information (name, email, authentication data)</li>
+</ul>
+<p>This data will be encrypted in transit and at rest, access-controlled, and audit-logged. It will be used only to provide the service to the account that uploaded it — never sold, and never used to train models on an identifiable basis without explicit consent. A full, detailed Privacy Policy will be published before general availability.</p>
+
+<h2>Your rights</h2>
+<p>You may ask us to delete your email from the waitlist at any time by contacting us below.</p>
+
+<h2>Contact</h2>
+<p>MedSnapshot — <a href="mailto:founder@medsnapshot.app">founder@medsnapshot.app</a> — <a href="https://medsnapshot.app">medsnapshot.app</a></p>
+</div>
+<script>
+document.documentElement.setAttribute('data-theme', localStorage.getItem('medsnapshot-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+</script>
+</body>
+</html>
