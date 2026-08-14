@@ -1,12 +1,12 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "MedSnapshot",
+  "name": "MedSnapshot",
   "icons": [{
-    "src": "icon.png",
-    "type": "image/png",
-    "sizes": "192x192"
+    "src": "img/logo.svg",
+    "type": "image/svg+xml",
+    "sizes": "any"
   }],
   "start_url": "/?utm_source=homescreen",
-  "background_color": "#fafafa",
-  "theme_color": "#fafafa"
+  "background_color": "#F4F1EA",
+  "theme_color": "#4F6E5C"
 }
